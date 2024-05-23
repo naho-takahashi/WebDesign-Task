@@ -1,0 +1,16 @@
+@charset "utf-8";
+body{
+    background-color:azure;
+    font-family: "游明朝", "HGP創英角ﾎﾟｯﾌﾟ体", serif;
+}
+img{
+    width: 50%;
+    width: 170px;
+}
+table, th, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
