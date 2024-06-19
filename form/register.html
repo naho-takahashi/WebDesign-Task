@@ -12,7 +12,7 @@
         <form action="#" method="get" enctype="multipart/form-data">
             <tr>
                 <th class="bg-gray">ID<span class="red">必須</span>(メールアドレス)</th>
-                <td id="bg-lightgray"><input type="email" size="30" placeholder="例：xxx@morijyobi.ac.jp" required></td>
+                <td id="bg-lightgray"><input type="email" name="mail" size="30" placeholder="例：xxx@morijyobi.ac.jp" required></td>
             </tr>
             <tr>
                 <th class="bg-gray">パスワード<span class="red">必須</span>(半角英数字8文字以上)</th>
@@ -20,33 +20,33 @@
             </tr>
             <tr>
                 <th class="bg-gray">氏名<span class="red">必須</span></th>
-                <td id="bg-lightgray">姓：<input type="text" placeholder="例：盛岡" required>名：<input type="text" placeholder="例：太郎" required></td>
+                <td id="bg-lightgray">姓：<input type="text" name="last_name" placeholder="例：盛岡" required>名：<input type="text" name="first_name" placeholder="例：太郎" required></td>
             </tr>
             <tr>
                 <th class="bg-gray">住所</th>
-                <td id="bg-lightgray">〒<input type="text" size="8" value="020-0021" readonly><br>
-                <input type="text" value="岩手県盛岡市中央通3丁目" readonly><br>
-                <input type="text" placeholder="番地"><br>
-                <input type="text" size="30"  placeholder="建物名"></td>
+                <td id="bg-lightgray">〒<input type="text" name="address1" size="8" value="020-0021" readonly><br>
+                <input type="text" name="address2" value="岩手県盛岡市中央通3丁目" readonly><br>
+                <input type="text" name="address3" placeholder="番地"><br>
+                <input type="text" name="address4" size="30"  placeholder="建物名"></td>
             </tr>
             <tr>
                 <th class="bg-gray">携帯電話番号<span class="red">必須</span>(ハイフンなし)</th>
-                <td id="bg-lightgray"><input type="tel" required></td>
+                <td id="bg-lightgray"><input type="tel" name="tel" required></td>
             </tr>
             <tr>
                 <th class="bg-gray">学科・学年<span class="red">必須</span></th>
                 <td id="bg-lightgray">学科：<select required>
-                    <option value="">学科を選択してください</option>
-                    <option value="システム系学科">システム系学科</option>
-                    <option value="ビジネス系学科">ビジネス系学科</option>
-                    <option value="デザイン系学科">デザイン系学科</option>
+                    <option name="gakka" value="">学科を選択してください</option>
+                    <option name="gakka1" value="システム系学科">システム系学科</option>
+                    <option name="gakka2" value="ビジネス系学科">ビジネス系学科</option>
+                    <option name="gakka3" value="デザイン系学科">デザイン系学科</option>
                 </select>
                     学年：<select required>
-                    <option value="">学年を選択してください</option>
-                    <option value="1年">1年</option>
-                    <option value="2年">2年</option>
-                    <option value="3年">3年</option>
-                    <option value="4年">4年</option>
+                    <option name="gakunen" value="">学年を選択してください</option>
+                    <option name="gakunen1" value="1年">1年</option>
+                    <option name="gakunen2" value="2年">2年</option>
+                    <option name="gakunen3" value="3年">3年</option>
+                    <option name="gakunen4" value="4年">4年</option>
                 </select></td>
             </tr>
             <tr>
