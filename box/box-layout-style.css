@@ -4,8 +4,7 @@ h1{
     text-align: center;
 }
 h2{
-    /* width: 90%; */
-    text-align: center;
+    width: 90%;
 }
 .item{
     width: 100px;
@@ -47,5 +46,14 @@ a{
     padding: 40px;
     background-color:beige;
     text-align: center;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    width: 90%;
 }
 
